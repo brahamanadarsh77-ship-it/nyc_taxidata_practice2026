@@ -1,0 +1,9 @@
+{
+	"name": "adarsh-datafactory-2026",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c856192c-8e70-4cad-9f7d-948b741cd48e",
+		"tenantId": "7a0d33ee-43e9-4d9b-82c7-68e74f439418"
+	}
+}
