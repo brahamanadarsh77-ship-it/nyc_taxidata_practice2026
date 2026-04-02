@@ -97,6 +97,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "trips2026",
 						"folderPath": "tripspracticedata",
 						"fileSystem": "bronze"
 					},
