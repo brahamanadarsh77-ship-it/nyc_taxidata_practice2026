@@ -1,0 +1,22 @@
+{
+	"name": "nyc_dataset_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "nyc_web",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "brahamanadarsh77-ship-it/nyc_taxidata_practice2026/refs/heads/main/account_profiles01.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
