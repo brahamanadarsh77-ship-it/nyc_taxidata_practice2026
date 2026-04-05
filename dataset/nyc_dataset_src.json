@@ -5,6 +5,11 @@
 			"referenceName": "nyc_web",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"p_name": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
