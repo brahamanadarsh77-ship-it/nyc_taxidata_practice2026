@@ -5,12 +5,20 @@
 			"referenceName": "nyc_web",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"p_name": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "brahamanadarsh77-ship-it/nyc_taxidata_practice2026/refs/heads/main/account_profiles01.csv"
+				"relativeUrl": {
+					"value": "brahamanadarsh77-ship-it/nyc_taxidata_practice2026/main/@{dataset().p_name}\n\n\n",
+					"type": "Expression"
+				}
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
